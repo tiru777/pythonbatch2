@@ -63,10 +63,11 @@ y = int(input("enter the y value:"))
 print("sum of x plus y",x+y)
 
 """
-
+'''
 x = int(input())
 u = int(input())
 print(x+u)
+"""
 
 
 
