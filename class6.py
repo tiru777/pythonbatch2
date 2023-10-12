@@ -55,7 +55,7 @@ print("x value is and y value is",x,y)
 print(f"{x} value x and {y} value is y")   # thirumala value x and 30 value is y
 
 print("%s value x and %d value is y"%(x,y))# reddy value x and 22 value is y
-print("{} value x and {} value is y".format(x,y))
+print("{} value x and {} value is y".format(x,y)) # reddy value x and 22 value is y
 
 
 
