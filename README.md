@@ -165,3 +165,51 @@ function
 """
 
 ```
+
+```
+# tuple
+"""
+Tuple:
+    - tuple keyword or ()
+    - it's immutable data type
+        - we can't increase length of elements present in list or decrease
+    - homogenous and hetrogenous it will support
+    - it will allow duplicates
+    - it will support indexing
+
+Methods:
+    - count
+    delete
+function
+    - max,min,sum,len,sorted
+"""
+```
+
+
+```
+# dict
+
+"""
+dictionary: it is a key and value pair ==>key:value
+            - {},dict
+            - it wont't indexing
+            - keys: - are immutable
+                    - unique
+                    - shoudln't be dupliactes
+                    - int,float,str
+            - list:
+                    - mutable
+                    - dupliactes allows
+                    - int,str,float,list,tuple,set,dict
+
+methods:
+    - add: dict[key] = value
+    - update
+    - items
+    - dictinory.keys()
+    - dictionary.values()
+    - pop: we can delete specifc key
+    - popitem: it will delete last key
+    
+"""
+```
