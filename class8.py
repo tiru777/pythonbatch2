@@ -95,7 +95,7 @@ print("max",max(zz))
 print("min",min(zz))
 print("sum",sum(zz))
 print("len",len(zz))
-print("sorted",sorted(zz))
+print("sorted",sorted(zz)) # [0, 1, 1, 2, 3, 6, 10, 10, 100]
 
 
 

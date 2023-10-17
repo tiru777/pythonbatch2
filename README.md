@@ -213,3 +213,48 @@ methods:
     
 """
 ```
+```
+"""
+# set
+Set is : It won't duplicates
+        - set() or {,}
+        - homogenous and hetro
+        - mutable ==> increase or decrease length
+        - order not preserved
+        - indexing won't allow
+        
+methods:
+    - add
+    - update
+    - clear
+    - pop: it will delete first element
+    - remove
+    - discard: it will delete sp element
+    - count
+    - intersection
+    - union
+    - diffrence
+x = set()
+"""
+```
+
+```
+# comprehension
+"""
+    - list
+    - tuple
+    - dict
+    - set
+"""
+"""
+1) comp
+    [expression loop]
+    [i**1 for i in y]
+2) conditions
+    [expression loop condition]
+3) [expression if else loop[]
+"""
+
+
+```
+
