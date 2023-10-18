@@ -257,4 +257,27 @@ x = set()
 
 
 ```
+```
 
+"""
+Functions: Repeatable code will be reduced by making functions
+    1) predefined function: print,sum,min etc
+    2) userdefined functions
+        - empty arguments: function()
+        
+        - positional argument or functions
+            - function(arg1,arg2)
+        - default arguments:
+            - non default arguments first and dfeault arguments follows
+            -  if you are defining a default argument while calling and
+                passing any values to it it will override
+        - variable length arguments: *args==>(1,2,3,4)
+        - keyword arguments: **kwargs==>(x=20,y=30,z=40)
+        
+        - lambda function
+        - generators
+        - iterators
+        - decorators
+
+"""
+```
