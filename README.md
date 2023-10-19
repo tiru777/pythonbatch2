@@ -281,3 +281,35 @@ Functions: Repeatable code will be reduced by making functions
 
 """
 ```
+
+```
+# SDLC
+Software Developement Life cycle
+SDLC Methods:
+    1) Agile
+    2) water fall
+
+Agile Methodology
+====================
+
+1)Requirement Phase
+2)Analysis
+3) HDD: High Level Design Document
+4) LDD: Low level Design Document
+5) Development
+6) Testing Phase
+7) Demo
+8) Deployement
+9) Maintenance
+
+Agile Methodology: JIra SOftware-Scrum Board, Confluence
+================================
+- Epic: Project
+- Product Backlogs: Projects features
+- Sprint: Multiple of stories
+- backlogs: Pending Stories
+- Standup Mettings: 3 points: yesterday what you have done,today what your are going to do, blockers
+- Sprint planning and review meetings: every sprint start and end
+- Retrospective  meeting: monthly
+"""
+```
