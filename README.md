@@ -313,3 +313,55 @@ Agile Methodology: JIra SOftware-Scrum Board, Confluence
 - Retrospective  meeting: monthly
 """
 ```
+```
+# lambda
+"""
+- we can write functions in single line
+- for returning lambda will take care
+
+syntax:
+
+variable = lambda arguments:expression
+vv = variable(10,20)
+variable = (lambda arguments:expression)(values)
+
+"""
+```
+```
+
+# generator
+"""
+generator: it will use yield to return the data in the form generator objects
+            -<generator object function_generator at 0x0000018B75CCBCA0>
+
+
+
+        return                                              yield
+        -------                                             -------
+- return after it won't execute            - yeild after it will execute
+- loop it will stop first iteration        - untill loop complete it will return data
+
+
+"""
+```
+```
+# iteration
+"""
+how we are doing loops in the same way we can perform using iter and next
+x = iter(sequence)
+print(next(x)
+"""
+```
+```
+# inner function or nested function
+def function_outer():
+    def inner_function():
+        return "hey i am from inner function"
+    z = inner_function()
+
+    return z#  "hey i am from inner function"
+
+z = function_outer()#  "hey i am from inner function"
+print(z)
+
+```
