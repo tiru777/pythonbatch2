@@ -365,3 +365,18 @@ z = function_outer()#  "hey i am from inner function"
 print(z)
 
 ```
+
+```
+# function: return
+# generator:yeild
+# iterator: iter,next
+# Decorator
+"""
+- decorator is a function, which will take function as argument
+
+- without distrubing existing function, we can add features to that function
+- it is represented by @ and it's a top of the function
+
+"""
+
+```
