@@ -380,3 +380,60 @@ print(z)
 """
 
 ```
+
+```commandline
+
+"""
+Exceptional Handling or Error Handling(Solve)
+- Whenever error raises the interpretor abnormally terminates script
+    for handling the error we are going to execeptional handling
+
+-------
+M1:
+---
+try:
+    - error possible area
+
+except:
+    - error handle area
+
+M2
+---
+-->if you want to know what error you should go this
+try:
+    ---
+except Exception as error:
+    print("error found:",error)
+
+M3:
+---
+- if you know exact error
+try:
+    ---
+except TypeError:
+    print("error got")
+
+M4:
+----
+try:
+    ----
+except Exception:
+    ----
+finally:
+    ----if error raise or error won't raise it will execute
+
+M5:
+----
+try:
+    ---
+except:
+    ---
+else:
+    - if error won't raise in try block it will execute otherwise it won't
+M6:
+---
+    raise: we can explicitly error
+    raise Exception("error description")
+    raise SPError("error description")
+"""
+```
