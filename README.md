@@ -437,3 +437,50 @@ M6:
     raise SPError("error description")
 """
 ```
+
+```commandline
+# file handling:
+"""
+we can handle files using multiple modes or methods
+
+modes:
+----------
+r --> to read the file
+w --> to write the file(it will override existing file data with new data),
+      - it will create & override a file if not exist
+a --> to add the data to existing file
+r+ --> read and write
+w+ --> write and read
+a+ --> append and read
+x --> exclusive creation(if file not there it will create, if file is there it will raise error"
+
+# Open: if we open file we have to close
+variable = open("file_name",mode)
+v.name
+v.mode()
+v.closed()
+
+
+# with: no need to close, it will close automatically
+with open('file.txt','r') as fp:
+
+
+Methods:Read
+------
+- read: it will read entire file data
+- readline: it will give single line of file data
+- readlines: it will give multiple lines in the list
+
+methods:Write
+------
+write: any thing
+writelines: multiple lines we can write
+
+append
+--------
+- write
+
+Seek: where you need to go to cursor
+"""
+
+```
