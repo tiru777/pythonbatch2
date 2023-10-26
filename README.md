@@ -484,3 +484,40 @@ Seek: where you need to go to cursor
 """
 
 ```
+```commandline
+
+# Packages
+"""
+Package: if __init__.py file and multiple python files or modules is called
+library: __init__.py,1package or one more packages
+module: python file
+packages: __init__.py+ modules
+
+import module_name
+---------------
+    - you will get all the functions and variables from the module
+
+from module_name import function
+-----------------------------
+    - you will get here specfic function only
+
+from module import *
+-------------------------
+    - we can import all functions and variables from the module
+
+as means alias
+---------------
+    - if your module is big name we can change name just like nick name
+"""
+
+```
+
+```
+"""
+Name spaces
+----------------
+Local variables or space or scope: we can access inside function or class only 
+global variable: we can access inside of the function or class,and also outside of the function or class
+    - if you want to change global variable value you can use global keyword then it will change
+"""
+```
