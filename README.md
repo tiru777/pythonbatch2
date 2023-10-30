@@ -534,7 +534,7 @@ Methods:
     - static method: if you don't need cls or self arguments passing to
                     # method you can using @staticmethod
     - constructor or initializer
-    - Destructure
+    - Destructure: if you want to delete Object, __del__ method
 
 
 

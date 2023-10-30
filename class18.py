@@ -9,8 +9,11 @@ Methods:
                     # we have to represent by using @classmethod
     - static method: if you don't need cls or self arguments passing to
                     # method you can using @staticmethod
-    - constructor or initializer
-    - Destructure
+    - constructor or initializer: whenever you defined or created object
+                            # the first method internally calls to initializer
+    - Destructure: if you want to delete Object, __del__ method
+
+- Class level variables usage
 
 
 
@@ -149,8 +152,23 @@ class Simple:
     def display(self,arg):
         return Simple.x+arg #use classname.variable name
 
-ss = Simple()
+# ss = Simple()
+# print(ss.display(20))
+
+# Destructure:if you want to delete Object, __del__ method by using del keyword
+class Simple2:
+    x = 20
+    def display(self,arg):
+
+        return Simple.x+arg #use classname.variable name
+    def __del__(self):
+        print("object deleted")
+
+ss = Simple2()
 print(ss.display(20))
+del ss
+print(ss.display(20))
+
 
 
 
