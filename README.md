@@ -521,3 +521,38 @@ global variable: we can access inside of the function or class,and also outside 
     - if you want to change global variable value you can use global keyword then it will change
 """
 ```
+```commandline
+"""
+OOPS: Object Oriented Programming System
+    - code repeatability reduce
+    - using class keyword we can represent
+
+Methods:
+    - Instance method: whenever self keyword is there is called
+    - class method: when argument is cls it is called as class method and
+                    # we have to represent by using @classmethod
+    - static method: if you don't need cls or self arguments passing to
+                    # method you can using @staticmethod
+    - constructor or initializer
+    - Destructure
+
+
+
+
+1) Inheritance
+2) polymorphism
+3) Encapsulation
+
+-----
+4) Abstract
+
+# Defining class
+class Employee:# class Name
+    pass
+
+ee = Employee()# Object or instance of the class
+print(ee)
+
+
+"""
+```
