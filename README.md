@@ -556,3 +556,31 @@ print(ee)
 
 """
 ```
+```commandline
+"""
+OOPS:
+
+1) Inheritance
+    i) single inheritance: single parent class to child class.
+                    Ex: parent and child
+    ii) multi level inheritance:one parent class to other child class from that to another child class
+                    Ex: grand_father+ father = child
+    iii) multiple inheritance:two parent classes methods we can inherit to child class
+                    Ex:father+mother = child
+    iv) hierarchical inheritance: we can inherit single base class to many child classes
+
+2) polymorphism:this is called a method overriding or method overloading
+3) Encapsulation: means data hiding or protecting or data binding
+    -- public: you can access anywhere
+    -- protected: you can access outside of the function but specifuc respective of the object using underscore (_)
+    -- private: you are not able access private methods are variable outside of the function
+                : if you want access you have to provide 
+                # object._classname__privatemethod()
+    
+4) abstract method: From Abc import abstractmethod and ABC
+                    # @abstractmethod
+                    # abstract means hiding
+"""
+
+
+```
