@@ -581,6 +581,84 @@ OOPS:
                     # @abstractmethod
                     # abstract means hiding
 """
+```
+```
+"""
+Logging: The main purpose is used to debug or get the information execution
+- Critical: 50
+- Error: 40
+- warning: 30
+- info: 20
+- debug: 10
 
+SYntax
+------
+import logging
+logging.basicConfig()
+
+M1:
+--------
+logging.basicConfig()# by default logging.WARNING
+# it will display only warning messages
+
+M2:
+------------
+If you need all
+    - logging.DEBUG
+
+M3:log file creation
+------------------
+logging.basicConfig(filename="logs.log",level=logging.DEBUG)
+"""
+```
+
+```
+Database:It is used to store the records 
+Two Types of Databases: 
+    - SQL:RDBMS
+        - MYSQL,ORACLE,POSTGRESS,MS SQL etc
+    - NOSQL
+        - DYnamo DB, MONGODB
+        
+SQL: Structured Query Language
+
+SQL: SQL is a standard language for accessing and manipulating databases.
+    - SQL is used to fetch, update, insert,delete,create
+
+      
+============================================
+
+Select: To fetch all records, 
+------------------------------
+Select * from table_name;
+
+Top =>few records
+----------------------------------
+Select TOP 3 * from table_name;
+
+count,min,max,sum,avg
+---------------------------------
+select count(*) from table_name;
+select sum(price) from table_name
+select max(price) from table_name;
+select min(price) from table_name;
+select avg(price) from table_name;
+
+where,and,or,not
+----------------------------------
+select * from table_name where price = 2000;
+select * from table_name where price =2000 and name = "akhil";
+select * from table_name where price =2000 or name = "prakash";
+select * from table_name where not name = "syed";
+
+order by: ASC default , DESC
+---------------------------------------------
+select * from table_name where name order by desc;
+
+DISTINCT: only unique elements , alias; as, like
+------------------------------
+select distinct city from table_name;
+select * from table_name as fp where fp.price = 2000;
+select * from table_name where firstname like "ak%";
 
 ```
