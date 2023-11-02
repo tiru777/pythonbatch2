@@ -283,37 +283,6 @@ Functions: Repeatable code will be reduced by making functions
 ```
 
 ```
-# SDLC
-Software Developement Life cycle
-SDLC Methods:
-    1) Agile
-    2) water fall
-
-Agile Methodology
-====================
-
-1)Requirement Phase
-2)Analysis
-3) HDD: High Level Design Document
-4) LDD: Low level Design Document
-5) Development
-6) Testing Phase
-7) Demo
-8) Deployement
-9) Maintenance
-
-Agile Methodology: JIra SOftware-Scrum Board, Confluence
-================================
-- Epic: Project
-- Product Backlogs: Projects features
-- Sprint: Multiple of stories
-- backlogs: Pending Stories
-- Standup Mettings: 3 points: yesterday what you have done,today what your are going to do, blockers
-- Sprint planning and review meetings: every sprint start and end
-- Retrospective  meeting: monthly
-"""
-```
-```
 # lambda
 """
 - we can write functions in single line
@@ -611,6 +580,85 @@ M3:log file creation
 logging.basicConfig(filename="logs.log",level=logging.DEBUG)
 """
 ```
+```commandline
+"""
+# Regular Expression:
+find  the pattern(string or numbers) in raw string
+
+Methods:
+    - match: it will match first pattern in starts of the string
+    - search: it will search return single matched pattern in entire string
+    - findall: it will return all matched patterns in the string
+    - sub: whenever matches it will substitute the pattern
+    - split: whenever pattern matches it will split
+---
+
+Pattern conditions
+------------------
+[0-9] --> it will return single matched number
+\d --> it will return single matched number
+[a-zA-Z] --> it will return single matched charector
+\w --> it will return single matched charectr [a-zA-Z0-9]
+^ --> it is used for start of the string
+$ --> it is used for end of the pattern
+{} --> {1,} how many characters or numbers present in string
+. --> single characters return
+\s --> single space
+* --> 0 or more occurances
++ --> 1 or more occurences
+
+# match: it will match start of the string
+# re.match(pattern,string)
+
+#search: it will search not only start of the string, and also it will search middle but
+        # it will return single
+# re.search(pattern,string)
+
+# find all: it will return all matched patterns
+# re.findall("pattern",str)
+
+# sub: it will substitute when pattern matches
+# re.sub(pattern,sub)
+
+# split: based pattern will split
+d = re.split("\s",x)
+
+"""
+```
+
+
+
+```
+# SDLC
+Software Developement Life cycle
+SDLC Methods:
+    1) Agile
+    2) water fall
+
+Agile Methodology
+====================
+
+1)Requirement Phase
+2)Analysis
+3) HDD: High Level Design Document
+4) LDD: Low level Design Document
+5) Development
+6) Testing Phase
+7) Demo
+8) Deployement
+9) Maintenance
+
+Agile Methodology: JIra SOftware-Scrum Board, Confluence
+================================
+- Epic: Project
+- Product Backlogs: Projects features
+- Sprint: Multiple of stories
+- backlogs: Pending Stories
+- Standup Mettings: 3 points: yesterday what you have done,today what your are going to do, blockers
+- Sprint planning and review meetings: every sprint start and end
+- Retrospective  meeting: monthly
+"""
+```
 
 ```
 Database:It is used to store the records 
@@ -661,4 +709,39 @@ select distinct city from table_name;
 select * from table_name as fp where fp.price = 2000;
 select * from table_name where firstname like "ak%";
 
+update:
+---------------------
+update table_name set column=value where column=value
+
+delete
+-----------------------
+delete from table_name where column=value
+
+is null or is not null
+---------------------
+select * from customers where address is Null
+select * from customers where address is not Null
+
+joins: two join two or more tables 
+------------------
+select table1.id, table2.id from table1
+inner join table2
+on table1.firstname = table2.firstname
+
+
+inner join: common elements from both tables
+left join: left table records and matched records of right table
+right join: right table records and matched records of left table
+full join: combain of two tables
+union: combain of two tables
+
+Group by: grouping based on any column vaue
+------------------
+select * from table group by column
+
+having: its like where condition but we should along with group by
+-------------------------------------
+select * from table 
+group by column 
+having column=value
 ```
