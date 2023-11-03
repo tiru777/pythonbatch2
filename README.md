@@ -744,4 +744,81 @@ having: its like where condition but we should along with group by
 select * from table 
 group by column 
 having column=value
+
+Database creation or drop
+---------------------
+Create Database database_name
+show databases;
+drop database database_name # both table and data
+truncate database database_name # only delete not table 
+
+Constraints
+--------------
+Not Null: mandatory column
+unique: value should be unique
+primary key: its combination of not null and unique
+foreign key: relation between two tables
+check: check field value
+default: insert default value
+
+Create table
+----------------
+create table table_name(
+        column1 data_type constraint,
+        column1 data_type constraint,
+        )
+
+CREATE TABLE Employee(
+	Employeeid int,
+	LastName varchar(255),
+	FirstName varchar(255),
+	Address varchar(255),
+	City varchar(255)
+	);
+	
+drop and truncate
+-------------
+drop table Employee;
+truncate table Employee;
+
+alter
+-------------
+alter table Employee add Country varchar(20);
+alter table Employee drop City;
+ALTER TABLE employee RENAME COLUMN LastName to new_name;
+alter table Employee modify FirstName varchar(100);
+
+constraint
+----------------------------
+CREATE TABLE Customers(
+	Employeeid int primary key,
+	LastName varchar(255),
+	FirstName varchar(255) unique,
+	Address varchar(255) Not null,
+	City varchar(255) DEFAULT "bangalore"
+	);
+	
+foreign key relation
+------------------
+
+CREATE TABLE Orders (
+    OrderID int PRIMARY key,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    FOREIGN KEY (OrderID) REFERENCES Customers(Employeeid)
+);
+    
+insert
+-----------------------
+INSERT INTO Customers (Employeeid, LastName, FirstName, Address)
+VALUES (1,"reddy","thirumala","rvp");
+
+fetch two table data using joins
+-----------------------------------
+select * from Customers 
+Inner join orders 
+on Customers.Employeeid=Orders.OrderID;
+
+
+
 ```
