@@ -836,6 +836,32 @@ fetch two table data using joins
 select * from Customers 
 Inner join orders 
 on Customers.Employeeid=Orders.OrderID;
+```
+```Linux
+
+ls : list of items in the current folder
+ls -a: list of items and hidden items in the current folder
+cd : change directory
+pwd : present working directory
+mkdir :create new directory
+rmdir :remove directory(folder)
+chdir :change directory
+rm :remove file or folder ex:rm *.jpg removes all jpg files
+*  wild card
+mv :move or rename a file or folder to a new location
+
+touch :creating new file ex:touch file.txt
+cat : display the file content ex:cat file.txt
+less : display portion of a file and file content
+curl :used for file transfer
+clear : clear in terminal
+whoami: username
+uname: username
+passwd: password change
+history: 
+zoom in :ctl+shift++
+zoom out:ctl --
+vi: editor using "i" insert, for saving ESC+:+wq,not save ESC:q!
 
 
 
