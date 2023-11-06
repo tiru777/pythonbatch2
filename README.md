@@ -838,7 +838,8 @@ Inner join orders
 on Customers.Employeeid=Orders.OrderID;
 ```
 ```Linux
-
+Linux Commands
+------------------
 ls : list of items in the current folder
 ls -a: list of items and hidden items in the current folder
 cd : change directory
