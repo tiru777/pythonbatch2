@@ -625,8 +625,26 @@ d = re.split("\s",x)
 
 """
 ```
+```commandline
+"""
+MYSQL Integration: connecting with database using python
+commit(): data after insert or delete must use commit
+fetchone(): it will fetch one record
+fetchall(): it will  fetch all record
 
+cursor.execute(query)
 
+"""
+
+```
+```commandline
+"""
+# multi threading and multiprocessing
+
+if you want to run multiple functions or classes parallel
+- time reduce
+"""
+```
 
 ```
 # SDLC
